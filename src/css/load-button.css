@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 36px 24px;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.load-btn {
+  min-width: 125px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-color: transparent;
+  background: #4e75ff;
+  color: #fff;
+}
+
+.load-btn:hover,
+.load-btn:focus {
+  background-color: #6c8cff;
+}
